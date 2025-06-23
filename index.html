@@ -1,5 +1,6 @@
 <!-- Name: Kapil Sharma -->
 <!-- Student Number: 9023664 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,19 +61,113 @@
 
     <aside>
         <!--Links-->
-        <section>
-
+        <section id="external-links">
+            <h2>Explore More</h2>
+            <ul>
+                <li><a href="https://visitdubai.com" target="_blank" title="Visit Dubai Official Tourism Site">Visit
+                        Dubai</a>
+                </li>
+                <li><a href="https://en.wikipedia.org/wiki/Dubai" target="_blank"
+                        title="Wikipedia article on Dubai">Wikipedia</a></li>
+                <li><a href="https://www.lonelyplanet.com/united-arab-emirates/dubai" target="_blank"
+                        title="Lonely Planet Travel Guide to Dubai">Lonely Planet</a></li>
+            </ul>
         </section>
-        <!--Table-->
-        <section>
 
+        <!--Table-->
+        <section id="facts">
+            <h2>Dubai City Facts</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Fact</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Population</td>
+                        <td>Approximately 4 million (2025)</td>
+                    </tr>
+                    <tr>
+                        <td>Timezone</td>
+                        <td>UAE Standard Time (UTC+4)</td>
+                    </tr>
+                    <tr>
+                        <td>Founded</td>
+                        <td>Early 18th century</td>
+                    </tr>
+                    <tr>
+                        <td>Official Language</td>
+                        <td>Arabic</td>
+                    </tr>
+                    <tr>
+                        <td>Currency</td>
+                        <td>UAE Dirham (AED)</td>
+                    </tr>
+                    <tr>
+                        <td>Famous Landmark</td>
+                        <td>Burj Khalifa - tallest building in the world</td>
+                    </tr>
+                    <tr>
+                        <td>Annual Visitors</td>
+                        <td>Over 14 million tourists</td>
+                    </tr>
+                    <tr>
+                        <td>Main Airport</td>
+                        <td>Dubai International Airport (DXB) - world's busiest for international passengers</td>
+                    </tr>
+                    <tr>
+                        <td>Climate</td>
+                        <td>Hot desert climate - extremely hot summers, mild winters</td>
+                    </tr>
+                    <tr>
+                        <td>Major Industries</td>
+                        <td>Tourism, real estate, aviation, finance, trade</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <!--Form-->
-        <section>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name" class="form-label">Name:</label>
+                <br />
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" autofocus
+                    required>
 
+                <br /><br />
+
+                <label for="email" class="form-label">Email:</label>
+                <br />
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
+
+                <br /><br />
+
+                <label for="visit-reason" class="form-label">Why do you want to visit Dubai?</label>
+                <br />
+                <textarea id="visit-reason" name="visit-reason" class="form-control" rows="4"></textarea>
+
+                <br /><br />
+
+                <label for="season" class="form-label">Preferred Season:</label>
+                <br />
+                <select id="season" name="season" class="form-control">
+                    <option value="winter">Winter</option>
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="autumn">Autumn</option>
+                </select>
+
+                <br /><br />
+
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </aside>
+
     <footer>
         <p>&copy; Kapil Sharma, 2025</p>
     </footer>
