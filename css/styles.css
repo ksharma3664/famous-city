@@ -1,0 +1,46 @@
+/* Name: Kapil Sharma */
+/* Student Number: 9023664 */
+
+/* Root element: sets base font for entire document */
+html {
+    /* Font shorthand: style variant weight size/line-height family */
+    font: normal small-caps 400 20px/1.5 'Segoe UI', sans-serif;
+    background-color: #edf2f7;
+}
+
+/* Body container styling */
+body {
+    /* Constrains content for readability */
+    max-width: 1200px;
+    /* Centers horizontally: 0 top/bottom, auto left/right */
+    margin: 0 auto;
+    /* Adds spacing inside body */
+    padding: 1.5rem;
+    /* Light border for structure */
+    border: 0.1rem solid #a0aec0;
+    /* White content area */
+    background-color: #ffffff;
+}
+
+/* Float-based two-column layout */
+main {
+    /* Float creates document flow positioning */
+    float: left;
+    /* Percentage-based responsive width */
+    width: 66%;
+    padding: 1rem;
+}
+
+aside {
+    /* Float opposite direction for side-by-side layout */
+    float: right;
+    /* Smaller width for side content */
+    width: 27%;
+    padding: 1rem;
+}
+
+/* Footer clears floats to avoid layout issues */
+footer {
+    /* Clear forces element below all floated elements */
+    clear: both;
+}
