@@ -44,3 +44,126 @@ footer {
     /* Clear forces element below all floated elements */
     clear: both;
 }
+
+/* Header and footer shared styles */
+header,
+footer {
+    /* gradient: direction and color stops */
+    background: linear-gradient(to right, #2b6cb0, #4a5568);
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Larger font for main heading */
+header h1 {
+    font-size: 3rem;
+}
+
+/* Smaller font for footer text */
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Styling section headings */
+section h2 {
+    /* Typography variant for elegant emphasis */
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 600;
+    /* Font stack: primary with fallback */
+    font-family: Georgia, serif;
+    color: #2d3748;
+    text-align: center;
+}
+
+/* Blockquote formatting */
+blockquote {
+    font-style: italic;
+    /* Light background to separate quote */
+    background-color: #e2e8f0;
+    padding: 1rem;
+    /* Left border for visual emphasis */
+    border-left: 0.5rem solid #4a5568;
+    width: 80%;
+    /* Centers with auto margins */
+    margin: 2rem auto;
+    /* shadow: x y blur rgba */
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
+/* Figure element styling */
+figure {
+    border: 0.2rem solid #cbd5e0;
+    /* rounded corners */
+    border-radius: 1rem;
+    padding: 1rem;
+    /* Subtle contrast background */
+    background-color: #f7fafc;
+    text-align: center;
+}
+
+/* Image inside figure */
+img {
+    /* Block display removes inline spacing issues */
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 0.1rem solid #a0aec0;
+    /* Smooth rounded corners */
+    border-radius: 0.7rem;
+}
+
+/* Figcaption styling */
+figcaption {
+    font-size: 0.8rem;
+    font-variant: small-caps;
+}
+
+/* Embedded YouTube video */
+iframe {
+    border: 0.2rem solid #4a5568;
+    display: block;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+/* Quote section (separate from blockquote) */
+#quote {
+    border: 0.2rem solid #4a5568;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+    width: 80%;
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    color: #2a2a2a;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+/* List and link formatting */
+ul {
+    /* Removes bullets */
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    /* Removes underline for cleaner look */
+    text-decoration: none;
+    color: #2c5282;
+}
+
+a:visited {
+    /* Shows visited state visually */
+    color: #553c9a;
+}
+
+a:hover {
+    /* Brings back underline on hover */
+    text-decoration: underline;
+    color: #1a365d;
+}
+
+a:active {
+    color: #2f855a;
+}
+
