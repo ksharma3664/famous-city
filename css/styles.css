@@ -167,3 +167,75 @@ a:active {
     color: #2f855a;
 }
 
+/* Table styling */
+table {
+    width: 100%;
+    /* Merges adjacent borders into single border */
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    font-variant: small-caps;
+    /* Dark background for contrast */
+    background-color: #2c5282;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+    border: 0.1rem solid #cbd5e0;
+}
+
+/* pseudo-selector for zebra striping */
+tbody tr:nth-child(even) {
+    background-color: #e2e8f0;
+}
+
+/* Interactive hover state */
+tbody tr:hover {
+    background-color: #cbd5e0;
+}
+
+/* Form label and input styling */
+.form-label {
+    font-variant: small-caps;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.form-control {
+    padding: 0.8rem;
+    border: 0.1rem solid #a0aec0;
+    border-radius: 0.5rem;
+    /* Fixed width for consistent form layout */
+    width: 16rem;
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    html {
+        /* Makes text more readable on mobile */
+        font-size: 16px;
+    }
+
+    main,
+    aside {
+        /* Disables float for stacked mobile layout */
+        float: none;
+        width: 100%;
+    }
+
+    .form-control {
+        width: 90%;
+    }
+
+    iframe,
+    img {
+        width: 100%;
+    }
+
+}
